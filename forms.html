@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <H1>THis is Forms</H1>
+</head>
+
+<body>
+    <form action="backend.php">
+        <!-- BY USING LABEL WE CAN INPUT THE TEXT EVEN IF WHEN WE CLICK ON THE NAME OF THE INPUT LABEL BOX -->
+        <label for="name"> Name: </label>
+
+        <div>
+            <input type="text" name="myname" id="name">
+        </div>
+        <!--  HERE WE HAVE ADDED LABEL IN THE ABOVE EXAMPLE -->
+
+        <br>
+        <LABEl for="Email"> Email : </LABEl>
+        <div>
+            <input type="text" name="myEmail" id="Email">
+        </div>
+
+
+
+        <br>
+        <div>
+            Contact: <input type="text" name="myContact">
+        </div>
+        <div>
+            Select COlor : <input type="color" name="ColorSelection" id="">
+
+        </div>
+        <br>
+        <div>
+            ENter Date : <input type="date" name="datetime" id="">
+        </div>
+        <br>
+        <br>
+        <div>
+            Select Gender :<br> Male <input type="radio" name="getRadioButton" id=""> Female <input type="radio"
+                name="getRadioButton" id="">
+        </div>
+        <br>
+        <div>
+            Are You A Human : <input type="checkbox" name="getCheckButton" id="">
+        </div>
+        <br>
+        <div>
+            <input type="button" value="Enter NOW">
+            <input type="reset" value=" Reset">
+        </div>
+        <div>
+            <br>
+            Enter Text Here :- <br>
+            <Textarea name="MyText " cols="20" rows="10">
+
+       </Textarea>
+
+        </div>
+
+
+        <!-- THIS DIV HAS PROVIDED THE OPTION FOR SELECTION DIFFERENT OPTIONS FROM A DROP DOWN MENY -->
+        <div>
+            <br>
+            <label for="University"> University Name : </label>
+            <select name="myUNIStoredInFile" id="University">
+
+                <option value="UniNameInFile">UET Lahore</option>
+                <option value="UniNameInFile" selected> UMT  </option>
+                <option value="UniNameInFile"> UET KSK </option>
+            </select>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
