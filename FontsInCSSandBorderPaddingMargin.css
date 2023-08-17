@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts</title>
+    <style>
+/*p{
+    font-size: 20px;
+     font-family: 'Courier New', Courier, monospace;
+   
+    line-height: 1em;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: pink;
+
+    /* We can also write it as  IN ONE Line*/
+   
+    
+#back ,.bc{
+    background-image: url(assets/HamzaPic.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+  
+    
+}
+#id{
+    background-color: white;
+}
+
+.container{
+    background-color: rgb(195, 160, 160);
+    border: rgb(66, 10, 10);
+    border-radius: 10;
+    border-width: 2px solid red
+    ;
+  
+  padding: 100 29 40 1000;
+  margin: 30 20 49 10;
+  font-size: 20
+;
+font-family: 'Courier New', Courier, monospace;
+color: lawngreen;
+}
+.container , #first{
+   
+  
+    background-color: rgb(0, 0, 0);
+
+    border:4 px solid rgb(255, 255, 255);
+    border-radius: 10;
+    
+
+    padding: 23px 34px 54px 23px;
+    margin: 23px 34px 54px 23px;
+  font-size: 20
+;
+font-family: 'Courier New', Courier, monospace;
+color: lawngreen;
+}
+
+
+.body , #one{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    border:2px solid green;
+    padding: 85px 34px 54px 23px;
+    margin: -38px 14px 37px 14px;
+}
+
+    </style>
+</head>
+<body>
+    <!-- <h1><p>THis is FOnts in CSS usage .</p></h1> -->
+    <!-- <p>THis file is a  part of tutorials in the CSS lecture</p> -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur alias cum sequi porro in amet qui eveniet, veniam illum harum accusantium soluta non deleniti adipisci. Aliquid ea repellat libero quaerat.</p> -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, distinctio!</p> -->
+</body>
+<div class="container">
+   
+    <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque optio modi dolor natus, suscipit consequuntur, repellendus veritatis labore vitae officia reprehenderit vero quibusdam!</p>
+
+    <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque optio modi dolor natus, suscipit consequuntur, repellendus veritatis labore vitae officia reprehenderit vero quibusdam!</p>
+    
+    <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque optio modi dolor natus, suscipit consequuntur, repellendus veritatis labore vitae officia reprehenderit vero quibusdam!</p>
+    <p id="fourth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque optio modi dolor natus, suscipit consequuntur, repellendus veritatis labore vitae officia reprehenderit vero quibusdam!</p>
+</div>
+
+<br>
+<br>
+<br>
+<div class="body">
+    <h2 id="one">
+        This is Hamza waseem
+    </h2>
+    <h2 id="two">
+        This is Hamza waseem
+    </h2>
+  
+    
+    
+
+</div>
+</html>

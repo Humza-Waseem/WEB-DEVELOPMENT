@@ -1,7 +1,62 @@
 .heading{
-    background-color: black;
-    color: maroon;
+    background-color: red;
+    color: white;
 }
-.un ordered lists{
+.un_ordered_lists , #head
+{
+background-color: yellow;
+color: black;
+}
+.subHead , #sss{
+    color: rgb(126, 3, 126);
+    
     
 }
+.list,#hd{
+    color: rgb(156, 31, 156);
+    border-radius: 1px solid grey;
+}
+.list, #hdd{
+color: yellow;
+border: 2px solid red;
+
+}
+.class{
+    color: chartreuse;
+}
+#Table{
+    color: blue;
+
+}
+.list, #hddd{
+    color: pink;
+    border: 20px solid purple;
+    
+    }
+.list, #heading{
+    color: red;
+    border-radius: 2px solid black;
+}
+.Points{
+    color: aquamarine;
+}
+#loremText{
+    color: rgb(9, 0, 138);
+}
+#UniversityIntro{
+    color: yellowgreen;
+}
+#titleOFForms
+{
+    color: mediumorchid;
+}
+#label{
+    color: cadetblue;
+}
+footer, span{
+    border-radius: 4px solid orange;
+    background-color: violet;
+   
+
+}
+
