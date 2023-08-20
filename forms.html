@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="first.css">
+    <H1 id="titleOFForms">THis is Forms</H1>
+</head>
+
+<body>
+    <form action="backend.php">
+        <!-- BY USING LABEL WE CAN INPUT THE TEXT EVEN IF WHEN WE CLICK ON THE NAME OF THE INPUT LABEL BOX -->
+        <div id="labels"> <label for="name"> Name: </label>
+
+            <div>
+                <input type="text" name="myname" id="name">
+            </div>
+            <!--  HERE WE HAVE ADDED LABEL IN THE ABOVE EXAMPLE -->
+
+            <br>
+            <LABEl for="Email"> Email : </LABEl>
+            <div>
+                <input type="text" name="myEmail" id="Email">
+            </div>
+
+            <!-- <div class="class"><label for="name">Last Name</label> -->
+
+                <!-- <input type="text" name="newName"> -->
+                <!-- <br> -->
+                <!-- <label for="Password">Password: </label> -->
+                <!-- <br> -->
+                <!-- Password : <input type="text" name="pass"> -->
+
+
+            <!-- </div> -->
+
+
+
+            <br>
+            <div>
+                Contact: <input type="text" name="myContact">
+            </div>
+            <div>
+                Select COlor : <input type="color" name="ColorSelection" id="">
+
+            </div>
+            <br>
+            <div>
+                ENter Date : <input type="date" name="datetime" id="">
+            </div>
+            <br>
+            <br>
+            <div>
+                Select Gender :<br> Male <input type="radio" name="getRadioButton" id=""> Female <input type="radio"
+                    name="getRadioButton" id="">
+            </div>
+            <br>
+            <div>
+                Are You A Human : <input type="checkbox" name="getCheckButton" id="">
+            </div>
+        </div>
+        <br>
+        <div>
+            <input type="button" value="Enter NOW">
+            <input type="reset" value=" Reset">
+        </div>
+        <div>
+            <br>
+            Enter Text Here :- <br>
+            <Textarea name="MyText " cols="20" rows="10">
+
+       </Textarea>
+
+        </div>
+
+
+        <!-- THIS DIV HAS PROVIDED THE OPTION FOR SELECTION DIFFERENT OPTIONS FROM A DROP DOWN MENY -->
+        <div>
+            <br>
+            <label for="University"> University Name : </label>
+            <select name="myUNIStoredInFile" id="University">
+
+                <option value="UniNameInFile">UET Lahore</option>
+                <option value="UniNameInFile" selected> UMT </option>
+                <option value="UniNameInFile"> UET KSK </option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+        <div>
+            <p id="loremText">This is a simple texxt Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                nesciunt ullam nihil similique repellendus velit magni tempore possimus illum corporis. </p>
+            <p id="UniversityIntro"> My <strong>university</strong> that is University of ENgineering and Technology is
+                one of the best university in the whole <strong>Country</strong></p>
+        </div>
+
+        <div id="main " class="students">
+
+        </div>
+        <!--   WE USE . FOR CLASS AND # FOR ID -->
+        <div id="student"></div>
+
+
+    </form>
+    <footer>This is Footer</footer>
+    <span> THis is span</span>
+</body>
+
+</html>

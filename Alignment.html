@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        .container {
+            width: 1000px;
+            border: 3px solid purple;
+            margin: auto;
+            background-color: rgb(208, 171, 243);
+            text-align: justify;
+            
+        }
+        .container,h1{
+        text-align: center;
+        }
+
+        .para {}
+
+        .item {
+            border: 3px solid black;
+            padding: 30px 30px;
+
+            margin: 30px 30px;
+            background-color: rgb(182, 241, 241);
+            /* TRBL */
+            font-size: 18px;
+
+
+        }
+
+        #fruit {
+            float: left;
+            width: 35%;
+        }
+
+        #Computer {
+
+            float: left;
+            width: 35%;
+        }
+
+        #stationary {
+            clear: left;
+            width: 90%;
+        }
+        #News {
+            float: left;
+            width: 35%;
+        }
+        .btn:hover{
+            cursor: pointer;
+            color: rgb(0, 0, 0);
+            background-color: rgb(196, 26, 173);
+
+            
+        }
+        .btn{
+            margin: 3px 120px;
+            border: 2px solid;
+            border-radius: 14%;
+            /* width: 60px; */
+            text-decoration: none;
+            text-align: center;
+            /* background-color: rgb(236, 127, 236); */
+            font-weight: bold;
+            text-align: center;
+
+        }
+        .btn:active{
+            color: gray;
+
+
+        }
+        .btn:visited{
+            color:orange ;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 style="color: maroon; ">THis is My Store! &copy;</h1>
+        <div class="item" id="fruit">
+    
+            <h2>Fruit</h2>
+            <p id="fruitpara" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam nulla laborum aspernatur dolorem, rem
+                recusandae cupiditate accusantium ut quas quo deserunt optio officiis, ab nemo corrupti saepe iure,
+                illum 
+                <br>
+               <button id="fruit" class="btn"><a href="https://www.youtube.com/" target="_blank">read more</a></button> 
+
+            </p>
+        </div>
+        <div class="item" id="News">
+
+            <h2>NEWS</h2>
+            <p id="newpara" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam nulla laborum aspernatur dolorem, rem
+                recusandae cupiditate accusantium ut quas quo deserunt optio officiis, ab nemo corrupti saepe iure,
+                illum ea.
+                <br>
+                <button id="news" class="btn"><a href="https://www.youtube.com/" target="_blank">read more</a></button>
+
+            </p>
+        </div>
+        <div class="item" id="Computer">
+
+            <h2>Computer</h2>
+            <p id="computerpara" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam nulla laborum aspernatur dolorem, rem
+                recusandae cupiditate accusantium ut quas quo deserunt optio officiis, ab nemo corrupti saepe iure,
+                illum ea.
+                <br>
+                <button id="computer" class="btn"><a href="https://www.youtube.com/" target="_blank">read more</a></button>
+
+            </p>
+        </div>
+        <div class="item" id="stationary">
+
+            <h2>stationary</h2>
+            <p id="stationarypara" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam nulla laborum aspernatur dolorem, rem
+                recusandae cupiditate accusantium ut quas quo deserunt optio officiis, ab nemo corrupti saepe iure,
+                illum ea.
+                <br>
+                <label for="stationary"><button id="stationary" class="btn"><a href="https://www.youtube.com/" target="_blank">read more</a></button></label>
+            </p>
+        </div>
+     
+
+
+    </div>
+</body>
+
+</html>
