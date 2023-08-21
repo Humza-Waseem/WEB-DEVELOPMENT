@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('/assets/green.jpg');
+    background-repeat: no-repeat;
+
+}
+.left{
+    border: 2px solid red;
+
+    display: inline-block;
+
+}
+
+.mid{
+    border: 2px solid rgb(83, 24, 138);
+    display: block;
+    width: 33%;
+
+    margin: 0px auto;
+}
+.right{
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    
+    top: 10px;
+}
