@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 6px solid orange;
+            height: 600px;
+            display: flex;
+            justify-content: space-between;
+            /* align-items: center; */
+           /* BY default Row is selected */
+            flex-direction: column;
+            /* flex-direction: column; */
+            /* align-items: baseline; */
+            flex: end;
+            flex-wrap: wrap;
+
+
+
+        }
+        .box{
+            display: inline;
+            border:3px solid rgb(3, 3, 3);
+            position: relative;
+            width: 100px;
+            flex-wrap: wrap;
+            height: 100px;
+            padding: 30px 10px 10px ;
+            
+          
+            width: 100px;
+
+
+            
+
+        }
+        #box1{
+            order: 3;
+            background-color: rgb(112, 83, 29);
+            align-self: flex-start;
+            width: 300px;
+            height: 200px;
+        flex-shrink: 2;
+        }
+        #box2{
+            order: 4;
+            background-color: rgb(29, 112, 98);
+            align-self: flex-start;
+        /* flex-grow: 3; */
+        }
+        #box3{
+            order: 1;
+            background-color: rgb(98, 75, 139);
+            position: fixed;
+            align-self: center
+            ;
+            
+        }
+        #box4{
+            order: 2;
+            background-color: rgb(180, 29, 117);
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h2>This is Flexbox In CSS</h2>
+</div>
+    <div class="container">
+        <div class="box" id="box1">THis is box 1 </div>
+        <div class="box" id="box2">THis is box 2</div>
+        <div class="box" id="box3">THis is box 3 </div>
+        <div class="box" id="box4">THis is box 4 </div>
+    </div>
+</body>
+</html>
