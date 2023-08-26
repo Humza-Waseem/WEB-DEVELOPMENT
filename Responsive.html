@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design&copy;</title>
+    <style>
+        body{
+            background-color: orange;
+        }
+        .box{
+            /* display: none; */
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            /* display:none ; */
+           
+        }
+        @media (max-width:250px)
+        {
+            .box-1{
+                
+                display: block;
+                color: black;
+                background-color: purple;
+            }
+        }
+        @media (max-width:400px) and (min-width:250px)
+        {
+            .box-2{
+                display: block;
+                color: black;
+                background-color: rgb(38, 29, 122);
+            }
+        }
+        @media (max-width:500px) and (min-width:252px)
+        {
+            .box-3{
+                display: block;
+                color: black;
+                background-color: rgb(59, 192, 110);
+            }
+        }
+        @media (max-width:600px)  and (min-width:502px)
+        {
+            .box-4{
+                display: block;
+                color: black;
+                background-color: rgb(228, 209, 37);
+            }
+        }
+    </style>
+   
+</head>
+<body>
+<div class="box">
+    <div class="box-1">I am a Redmi Phone</div>
+    <div class="box-2">I am a Tablet</div>
+    <div class="box-3">I am a Computer</div>
+    <div class="box-4">I am a Wide screen computer</div>
+</div>
+</body>
+</html>
