@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         header::before{
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+        .navigation {
+            display: flex;
+
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        .navigation>li {
+            list-style: none;
+            padding: 10px 80px;
+            font-size: 25px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(141, 4, 4);
+            font-weight: bolder;
+
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+        }
+
+        .para {
+            display: flex;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            justify-content: center;
+            font-size: 3rem;
+        }
+
+        .form input {
+            background-color: gray;
+            display: flex;
+            justify-content: center;
+            margin: 6px 501px;
+            width: 368px;
+            text-align: center;
+        }
+
+        .form input::placeholder {
+
+            color: rgb(0, 0, 0);
+        }
+
+        button {
+            display: flex;
+            background-color: maroon;
+            width: 368px;
+            margin: -1px 506px;
+            text-align: center;
+
+        }
+    </style>
+    <title>Website</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navigation">
+            <li class="list-item1" ><a href="#"></a>Home </li>
+            <li class="list-item2"><a href="#"></a>Academics</li>
+            <li class="list-item3"><a href="#"></a>Garage</li>
+            <li class="list-item4"><a href="#"></a>Contact</li>
+            <li class="list-item5"><a href="#"></a>More Info</li>
+        </ul>
+    </nav>
+    <div class="image">
+        <img src="data:image/jpeg;base64,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"
+            alt="">
+    </div>
+    <div class="para">
+        <p>The Dark Knight Rises</p>
+
+    </div>
+    <form class="form" action="
+  noaction">
+        <input type="text" placeholder="Enter Your Name">
+        <input type="text" placeholder="Enter Age">
+        <button>
+            SUBMIT
+        </button>
+
+    </form>
+</body>
+
+</html>
+
+
+
